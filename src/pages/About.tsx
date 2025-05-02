@@ -2,6 +2,7 @@ import { Code, Briefcase, GraduationCap, User } from "lucide-react"
 import SectionTitle from "../components/SectionTitle"
 import SkillCard from "../components/SkillCard"
 
+
 const About = () => {
   const frontendSkills = ["React", "TypeScript", "JavaScript", "HTML5", "CSS3", "Tailwind CSS", "Redux", "Next.js"]
 
@@ -17,38 +18,47 @@ const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-16">
           <div className="lg:col-span-2">
             <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 transition-all duration-300 hover:shadow-lg">
-              <div className="flex flex-col md:flex-row gap-6 mb-6">
-                <div className="md:w-1/3 flex justify-center">
-                  <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-teal-500 dark:border-teal-400 shadow-lg">
-                    <img
-                      src="/images/profile.jpg"
-                      alt="Hani Mustafa Hashmi"
-                      className="w-full h-full object-cover"
-                      onError={(e) => {
-                        const target = e.target as HTMLImageElement
-                        target.src = "/placeholder.svg?height=200&width=200"
-                      }}
-                    />
+              <div className="grid grid-cols-1 md:grid-cols-12 gap-8 mb-6">
+                {/* Profile image - takes 5 columns on md screens */}
+                <div className="md:col-span-5 flex justify-center">
+                  {/* Enhanced profile image container */}
+                  <div className="relative group mx-auto">
+                    {/* Decorative background elements - contained within the column */}
+                    <div className="absolute -inset-1 bg-gradient-to-r from-teal-600 to-teal-400 rounded-full opacity-75 blur-lg group-hover:opacity-100 transition duration-500"></div>
+                    <div className="absolute -inset-2 bg-gradient-to-r from-teal-400 via-teal-500 to-teal-600 rounded-full opacity-50 blur-sm group-hover:blur-md transition duration-500 animate-pulse"></div>
+
+                    {/* Main image container - slightly smaller to fit better */}
+                    <div className="relative w-56 h-56 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-white dark:border-gray-700 shadow-2xl transition-all duration-300 group-hover:scale-105 z-10">
+                      <div className="absolute inset-0 bg-gradient-to-b from-transparent to-teal-500/30 dark:to-teal-600/40 z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                      <img
+                        src="/images/profile.png"
+                        alt="Hani Mustafa Hashmi"
+                        className="w-full h-full object-cover"
+                        onError={(e) => {
+                          const target = e.target as HTMLImageElement
+                          target.src = "/placeholder.svg?height=300&width=300"
+                        }}
+                      />
+                    </div>
                   </div>
                 </div>
-                <div className="md:w-2/3">
+
+                {/* Text content - takes 7 columns on md screens */}
+                <div className="md:col-span-7">
                   <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Who am I?</h3>
                   <div className="space-y-4 text-gray-600 dark:text-gray-300">
                     <p>
-                    I’m a full‑stack (and MERN) developer who builds both web and mobile apps. On the web, I use React and Flask with Python, and I store data in PostgreSQL. For mobile projects, I turn to React Native. I design and build APIs, set up and secure databases, and keep servers running smoothly—always aiming for clean, fast, and easy‑to‑use code.
-
-                    When I’m not coding, you’ll find me playing online games, hanging out with friends, exploring new places, or simply catching up on some much‑needed sleep.
+                      I'm a full‑stack (and MERN) developer who builds both web and mobile apps. On the web, I use React
+                      and Flask with Python, and I store data in PostgreSQL. For mobile projects, I turn to React
+                      Native. I design and build APIs, set up and secure databases, and keep servers running
+                      smoothly—always aiming for clean, fast, and easy‑to‑use code.
+                    </p>
+                    <p>
+                      When I'm not coding, you'll find me playing online games, hanging out with friends, exploring new
+                      places, or simply catching up on some much‑needed sleep.
                     </p>
                   </div>
                 </div>
-              </div>
-              <div className="space-y-4 text-gray-600 dark:text-gray-300">
-                <p>
-                  
-                </p>
-                <p>
-                  
-                </p>
               </div>
             </div>
           </div>
