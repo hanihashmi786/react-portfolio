@@ -17,7 +17,7 @@ const Home = () => {
         </h1>
         <div className="text-2xl md:text-3xl text-gray-700 dark:text-gray-300 mb-8 h-12">
           I'm a{" "}
-          <TypingAnimation texts={["Software Engineer", "Full Stack Developer", "React/DJango Developer", "Problem Solver"]} />
+          <TypingAnimation texts={["Software Engineer", "Full Stack Developer", "Problem Solver"]} />
         </div>
         <p className="text-lg text-gray-600 dark:text-gray-400 mb-10 max-w-2xl mx-auto">
           I build both the front end and back end of web and mobile apps. I make sure my code
@@ -78,7 +78,7 @@ const Home = () => {
       </div>
       <div className="absolute bottom-10 left-0 right-0 flex justify-center animate-bounce">
         <a
-          href="#about"
+          href="/about"
           className="text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors duration-200"
           aria-label="Scroll down"
         >

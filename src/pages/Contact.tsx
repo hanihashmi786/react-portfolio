@@ -8,9 +8,9 @@ const Contact = () => {
     {
       content:
         "Working with Hani was a fantastic experience. He delivered high-quality code on time and was very responsive to feedback.",
-      author: "Jane Smith",
-      position: "CTO",
-      company: "Tech Innovations",
+      author: "M. Nauman Younis",
+      position: "Manager",
+      company: "MARS BPO Pvt. Ltd.",
     },
     {
       content:

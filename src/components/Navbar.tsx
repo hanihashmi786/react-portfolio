@@ -4,6 +4,7 @@ import { useState, useContext, useEffect } from "react"
 import { Link, useLocation } from "react-router-dom"
 import { ThemeContext } from "../context/ThemeContext"
 import { Sun, Moon, Menu, X } from "lucide-react"
+import TypingAnimation from "./TypingAnimation"
 
 const Navbar = () => {
   const { darkMode, toggleDarkMode } = useContext(ThemeContext)
@@ -34,9 +35,11 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
-            <Link to="/" className="flex-shrink-0 flex items-center">
-              <span className="text-xl font-bold text-gray-900 dark:text-white">Portfolio</span>
-            </Link>
+          <Link to="/" className="flex-shrink-0 flex items-center">
+            <span className="text-xl font-regular text-gray-900 dark:text-white">
+              <TypingAnimation texts={["haniHashmi();" ,"Welcome <3"]} />
+            </span>
+          </Link>
           </div>
 
           {/* Desktop menu */}
