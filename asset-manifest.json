@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/hani-portfolio/static/css/main.667746a2.css",
+    "main.js": "/hani-portfolio/static/js/main.37100aec.js",
+    "index.html": "/hani-portfolio/index.html",
+    "main.667746a2.css.map": "/hani-portfolio/static/css/main.667746a2.css.map",
+    "main.37100aec.js.map": "/hani-portfolio/static/js/main.37100aec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.667746a2.css",
+    "static/js/main.37100aec.js"
+  ]
+}
