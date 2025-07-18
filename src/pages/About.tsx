@@ -126,12 +126,9 @@ const About = () => {
               </div>
               <h4 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Full Stack Development</h4>
               <p className="text-gray-600 dark:text-gray-300 mb-2">
-                I build web apps using React, HTML, CSS and JavaScript. Also, I build cross‑platform apps with React
-                Native.
+              I specialize in building modern, responsive web applications with React, HTML, CSS, and JavaScript, and I create cross-platform mobile apps using React Native. 
               </p>
-              <p className="text-gray-600 dark:text-gray-300">
-                I write server code in Flask and store data in PostgreSQL.
-              </p>
+              
             </div>
 
             {/* API & Backend */}

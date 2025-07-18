@@ -6,14 +6,12 @@ import { ArrowLeft, Calendar, Clock, Tag } from "lucide-react"
 const BlogPost = () => {
   const { id } = useParams<{ id: string }>()
 
-  // In a real application, you would fetch the blog post data from an API
-  // This is just a mock example
   const blogPosts = {
     "1": {
       title: "Getting Started with React Hooks",
       date: "May 15, 2023",
       readTime: "5 min read",
-      image: "/placeholder.svg?height=600&width=1200",
+      image: "/images/ReactHooks.png",
       tags: ["React", "Hooks", "JavaScript"],
       content: `
         <p>React Hooks were introduced in React 16.8 as a way to use state and other React features without writing a class component. They allow you to "hook into" React state and lifecycle features from function components.</p>

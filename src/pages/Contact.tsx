@@ -67,7 +67,7 @@ const Contact = () => {
                   <h4 className="text-lg font-medium text-gray-900 dark:text-white">Phone</h4>
                   <p className="text-gray-600 dark:text-gray-300">
                     <a
-                      href="tel:+11234567890"
+                      href="tel:+923363678997"
                       className="hover:text-teal-600 dark:hover:text-teal-400 transition-colors duration-200"
                     >
                       +1 (123) 456-7890
@@ -82,7 +82,7 @@ const Contact = () => {
                 </div>
                 <div className="ml-3">
                   <h4 className="text-lg font-medium text-gray-900 dark:text-white">Location</h4>
-                  <p className="text-gray-600 dark:text-gray-300">City, Country</p>
+                  <p className="text-gray-600 dark:text-gray-300">Islamabad, Pakistan</p>
                 </div>
               </div>
             </div>

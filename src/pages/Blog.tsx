@@ -12,7 +12,7 @@ const Blog = () => {
       excerpt: "Learn how to use React Hooks to simplify your components and manage state more effectively.",
       date: "May 15, 2023",
       readTime: "5 min read",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/ReactHooks.png",
       tags: ["React", "Hooks", "JavaScript"],
     },
     {
@@ -21,7 +21,7 @@ const Blog = () => {
       excerpt: "Discover how to create beautiful, responsive user interfaces using Tailwind CSS.",
       date: "Apr 22, 2023",
       readTime: "7 min read",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/Mockup.png",
       tags: ["CSS", "Tailwind", "Responsive Design"],
     },
     {
@@ -30,7 +30,7 @@ const Blog = () => {
       excerpt: "Compare different state management approaches in React and learn when to use each one.",
       date: "Mar 10, 2023",
       readTime: "8 min read",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/RvC.png",
       tags: ["React", "Redux", "Context API"],
     },
     {
@@ -39,7 +39,7 @@ const Blog = () => {
       excerpt: "Learn techniques to improve the performance of your React applications.",
       date: "Feb 28, 2023",
       readTime: "6 min read",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/ReactPerformance.png",
       tags: ["React", "Performance", "Optimization"],
     },
     {
@@ -48,7 +48,7 @@ const Blog = () => {
       excerpt: "Discover how TypeScript can improve your React development experience with static typing.",
       date: "Jan 15, 2023",
       readTime: "9 min read",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/Code.png",
       tags: ["TypeScript", "React", "JavaScript"],
     },
     {
@@ -57,7 +57,7 @@ const Blog = () => {
       excerpt: "Learn how to make your web applications accessible to all users, including those with disabilities.",
       date: "Dec 5, 2022",
       readTime: "7 min read",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/ARIA.png",
       tags: ["Accessibility", "HTML", "ARIA"],
     },
   ]

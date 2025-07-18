@@ -4,7 +4,7 @@ import ExperienceCard from "../components/ExperienceCard"
 const Experience = () => {
   const experiences = [
     {
-      title: "Python Developer",
+      title: "Full Stack Developer",
       company: "MARS BPO Pvt. Ltd.",
       location: "Rawalpindi, Pakistan",
       period: "Oct 2024 - Present",
@@ -14,7 +14,7 @@ const Experience = () => {
         "Optimized application performance, resulting in a 40% improvement in load times",
         "Optimized backend codebase and debugging processes, reducing issue resolution time by 40%.",
       ],
-      skills: ["React", "TypeScript", "Flask", "Django", "Python" , "HTML/CSS" , "JavaScript" , "React Native", "PostgreSQL", "Bash", "Git" , "MongoDB"] ,
+      skills: ["React", "TypeScript", "Flask", "Django", "Python" , "HTML/CSS" , "JavaScript" , "React Native", "PostgreSQL", "Bash", "Git" , "MongoDB", "Vite"] ,
     },
     {
       title: "JavaScript Developer - Internship",
